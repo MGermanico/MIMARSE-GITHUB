@@ -21,4 +21,7 @@ public class CalculaAreas {
                 + "2.Cuadrado\n"
                 + "3.(n)Ágono\n\n");
     }
+    public static void nagono(double l, double a, double n){
+        System.out.println(((l*a)/2)*n);
+    }
 }
