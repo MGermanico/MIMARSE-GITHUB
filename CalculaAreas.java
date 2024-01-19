@@ -21,4 +21,7 @@ public class CalculaAreas {
                 + "2.Cuadrado\n"
                 + "3.(n)Ágono\n\n");
     }
+	public static void cuadrado(int n) {
+	System.out.println(n * n);
+	}
 }
