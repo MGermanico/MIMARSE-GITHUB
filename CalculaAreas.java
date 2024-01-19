@@ -44,4 +44,7 @@ public class CalculaAreas {
     public static void cuadrado(double n) {
         System.out.println(n * n);
     }
+    public static void nagono(double l, double a, double n){
+        System.out.println(((l*a)/2)*n);
+    }
 }
