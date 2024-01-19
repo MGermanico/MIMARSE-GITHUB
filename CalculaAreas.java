@@ -29,11 +29,20 @@ public class CalculaAreas {
             return false;
         }else{
             if (res.equals("1")) {
-                
+            	 System.out.println("Introduzca la base y la altura");
+                double b = sc.nextDouble();
+                double h = sc.nextDouble();
+                triangulo(b, h);
             }else if (res.equals("2")) {
-                
+                System.out.println("Introduzca el lado del cuadrado: ");
+                double l = sc.nextDouble();
+                cuadrado(l);
             }else if (res.equals("3")) {
-                
+                System.out.println("Introduzca el lado, apotema y numero de lados del polígono: ");
+                double l = sc.nextDouble();
+                double a = sc.nextDouble();
+                double n = sc.nextDouble();
+                nagono(l, a, n);
             }
             return true;
         }
