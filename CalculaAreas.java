@@ -21,4 +21,7 @@ public class CalculaAreas {
                 + "2.Cuadrado\n"
                 + "3.(n)Ágono\n\n");
     }
+        public static void triangulo(double base, double altura){
+        System.out.println(base * altura / 2);
+    }    
 }
