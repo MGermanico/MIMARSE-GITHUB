@@ -38,7 +38,10 @@ public class CalculaAreas {
             return true;
         }
     }
-        public static void triangulo(double base, double altura){
+    public static void triangulo(double base, double altura){
         System.out.println(base * altura / 2);
-    }    
+    }
+    public static void cuadrado(double n) {
+        System.out.println(n * n);
+    }
 }
