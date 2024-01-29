@@ -1,0 +1,9 @@
+Pues, sigue los pasos:
+
+	--  Elige un Área:
+
+(1)Cuadrado
+(2)...
+
+Pones el número que quieras, por ejemplo escribes '1' y accedes al Area de un cuadrado.
+Donde te preguntará el lado del cuadrado, respondes con cuanto quieres que mida el cuadrado del cual quieres saber el Área, y te lo dice.
